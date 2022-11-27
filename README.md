@@ -1,1 +1,2 @@
 # odin-landing-page
+This is a sample home page I created. It is from a prompt given by the Odin Project where I have to create a sample landing page. I had the idea to make mine look like an adoption site for cats. The links and forms are not functional, the design is purely for conceptual purposes. I borrowed images from brave image search and do not own or claim any of them.
