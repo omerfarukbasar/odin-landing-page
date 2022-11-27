@@ -1,0 +1,170 @@
+/* Body Section*/
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.the-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Hero Section*/
+.hero-section {
+    background-color: #1f2937;
+    color: #E5E7EB;
+}
+
+.web-logo{
+    width: 75px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.hero-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.hero-body {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+
+.hero-image {
+    height: 250px;
+    width: auto;
+}
+
+.hero-extra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    color: white;
+    height: 50px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+/* Card Section*/
+.card-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 16px;
+    max-width: 200px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.card-pic {
+    width: 200px;
+    height: auto;
+    border: 5px solid #3882F6;
+    border-radius: 4px;
+}
+
+/* Quotes Section*/
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color:#E5E7EB;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.quote {
+    font-size: 36px;
+}
+
+.author {
+    font-size: 18px;
+}
+
+/* Sign-Up Section*/
+.purchase-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.the-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.purchase-button {
+    background-color: #3882F6;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+/* Footer Section*/
+.footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 16px;
+}
+
+/* Others */
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+a {
+   text-decoration: none;
+   font-size: 18px; 
+   color: white;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 900;
+}
